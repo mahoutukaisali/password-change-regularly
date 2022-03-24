@@ -8,4 +8,5 @@
 
   tasks:
     - name: run something
+      remote_user: ansible
       command: echo 'hello'
