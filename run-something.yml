@@ -4,8 +4,8 @@
   remote_user: ansible
 
   vars:
-    #ansible_user: ansible
-    #ansible_password: "{{ service_account_password }}"
+    ansible_user: ansible
+    ansible_password: "{{ service_account_password }}"
 
   tasks:
     - name: run something
